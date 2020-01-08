@@ -1,0 +1,14 @@
+$ docker run -d --rm devopsdockeruh/exec_bash_exercise
+0c5efb1c69a2c0d6c630a51460d69521d678e0a00ea703dd80ac7e78066ccce0
+
+$ docker exec -it friendly_lalande bash
+root@0c5efb1c69a2:/usr/app# tail -f ./logs.txt
+Wed, 08 Jan 2020 08:01:29 GMT
+Wed, 08 Jan 2020 08:01:32 GMT
+Wed, 08 Jan 2020 08:01:35 GMT
+Wed, 08 Jan 2020 08:01:38 GMT
+Secret message is:
+"Docker is easy"
+Wed, 08 Jan 2020 08:01:44 GMT
+Wed, 08 Jan 2020 08:01:47 GMT
+Wed, 08 Jan 2020 08:01:50 GMT
