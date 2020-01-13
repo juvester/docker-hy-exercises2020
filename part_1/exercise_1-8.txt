@@ -1,0 +1,10 @@
+$ docker pull devopsdockeruh/first_volume_exercise
+
+$ touch logs.txt
+
+$ docker run --rm -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+$ cat logs.txt
+Mon, 13 Jan 2020 18:16:04 GMT
+Mon, 13 Jan 2020 18:16:07 GMT
+Mon, 13 Jan 2020 18:16:10 GMT
