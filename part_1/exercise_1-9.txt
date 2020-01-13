@@ -1,0 +1,10 @@
+$ docker pull devopsdockeruh/ports_exercise
+
+$ docker run --rm -d -p 80 devopsdockeruh/ports_exercise
+2ec4ea00df65c1cb6f49ddb7ab8dc6076060266a7693d72a6101081f01c8063c
+
+$ docker port 2ec4
+80/tcp -> 0.0.0.0:32770
+
+$ wget -qO- localhost:32770
+Ports configured correctly!!
