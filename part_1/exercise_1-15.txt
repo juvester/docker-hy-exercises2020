@@ -1,0 +1,5 @@
+# Project: https://github.com/juvester/weechat
+# Docker Hub: https://hub.docker.com/r/juvester/weechat
+
+# To run WeeChat in a Docker container:
+$ docker run -it juvester/weechat
