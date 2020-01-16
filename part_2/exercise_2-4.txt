@@ -1,0 +1,12 @@
+# Commands entered to get the orange button to turn green:
+
+# Clone the repo and 'cd' into it
+$ git clone https://github.com/docker-hy/scaling-exercise.git
+$ cd scaling-exercise
+
+# Run the project and scale the 'compute' service so it runs 3 instances of it.
+# One instance is not fast enough to do the calculations in time.
+$ docker-compose up --scale compute=3
+
+# Open localhost:3000 in a browser and click the orange button. It should now
+# turn green.
