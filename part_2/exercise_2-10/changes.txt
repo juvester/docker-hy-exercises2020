@@ -1,2 +1,2 @@
-I had to add API_URL enenvironment variable to the frontend.
-Otherwise the requests would go to a wrong address.
+I had to change API_URL enenvironment variable to point to "http://localhost/api".
+Otherwise the requests would not go to a correct address.
