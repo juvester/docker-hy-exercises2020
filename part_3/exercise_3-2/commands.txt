@@ -1,1 +1,2 @@
+$ docker build -t yle-dl .
 $ docker run -v "$(pwd):/videos" yle-dl https://areena.yle.fi/1-50375452
