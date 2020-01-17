@@ -1,0 +1,2 @@
+I had to add API_URL enenvironment variable to the frontend.
+Otherwise the requests would go to a wrong address.
